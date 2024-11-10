@@ -1,0 +1,60 @@
+/* Chat.css */
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding around the container */
+}
+
+.messages-container {
+    flex: 1; /* Take up available space */
+    overflow-y: auto; /* Scrollable area for messages */
+    margin-bottom: 16px; /* Space between messages and input */
+}
+
+.message {
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for messages */
+    margin: 5px 0; /* Space between messages */
+    max-width: 70%; /* Limit message width */
+}
+
+.sent {
+    background-color: #dcf8c6; /* Light green for sent messages */
+    align-self: flex-end; /* Align sent messages to the right */
+}
+
+.received {
+    background-color: #ffffff; /* White for received messages */
+    align-self: flex-start; /* Align received messages to the left */
+}
+
+.input-container {
+    display: flex; /* Flexbox for input and button */
+    align-items: center; /* Center vertically */
+}
+
+.message-input {
+    flex: 1; /* Take up available space */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 8px; /* Space between input and button */
+}
+
+.send-button {
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.send-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
