@@ -41,6 +41,11 @@ const Login = ({ onLogin }) => {
                 </div>
                 <button type="submit">Login</button>
             </form>
+            <div className="credentials-info">
+                <h3>Admin Credentials</h3>
+                <p><strong>Username:</strong> admin</p>
+                <p><strong>Password:</strong> admin</p>
+            </div>
         </div>
     );
 };
